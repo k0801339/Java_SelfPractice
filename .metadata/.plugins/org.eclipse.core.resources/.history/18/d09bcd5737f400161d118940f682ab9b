@@ -1,0 +1,19 @@
+package cc.openhome;
+
+public class Ex2 {
+
+	public static void main(String[] args) {
+		int[][] maze = {
+			{2,2,2,2,2,2,2},
+			{0,0,0,0,0,0,2},
+			{2,0,2,0,2,0,2},
+			{2,0,0,2,0,2,2},
+			{2,2,0,2,0,2,2},
+			{2,0,0,0,0,0,2},
+			{2,2,2,2,2,1,2},
+		};
+		
+	}
+	public static void 
+
+}
