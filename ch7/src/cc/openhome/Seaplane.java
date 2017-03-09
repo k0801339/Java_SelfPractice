@@ -1,6 +1,9 @@
 package cc.openhome;
 
 public class Seaplane implements Swimmer, Flyer{
+	/**
+	 * @uml.property  name="name"
+	 */
 	private String name;
 	public Seaplane(String name){
 		this.name = name;

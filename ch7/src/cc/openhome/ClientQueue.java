@@ -3,7 +3,15 @@ package cc.openhome;
 import java.util.ArrayList;
 
 public class ClientQueue {
+	/**
+	 * @uml.property  name="clients"
+	 * @uml.associationEnd  multiplicity="(0 -1)" elementType="cc.openhome.Client"
+	 */
 	private ArrayList clients = new ArrayList();
+	/**
+	 * @uml.property  name="listeners"
+	 * @uml.associationEnd  multiplicity="(0 -1)" elementType="cc.openhome.ClientListener"
+	 */
 	private ArrayList listeners = new ArrayList();
 	
 	public void addClientListener(ClientListener listener){
