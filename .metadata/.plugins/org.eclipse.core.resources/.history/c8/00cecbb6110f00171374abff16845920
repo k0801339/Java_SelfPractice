@@ -1,0 +1,20 @@
+package pro.gradeSystem;
+
+public class GradeSystems {
+	private float[] weights = {0.1,0.1,0.1,0.3,0.4};
+	public GradeSystems(){
+		
+	}
+	boolean containsID(int ID){
+		
+	}
+	void showGrade(int ID){
+		
+	}
+	void showRank(int ID){
+		
+	}
+	void updateWeights(){
+		
+	}
+}

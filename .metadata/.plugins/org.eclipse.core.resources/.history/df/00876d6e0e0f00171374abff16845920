@@ -1,0 +1,7 @@
+package pro.gradeSystem;
+
+public class Grades {
+	public Grades(int ID,String name,int lab1,int lab2,int lab3,int midTerm,int finalTerm){
+		
+	}
+}

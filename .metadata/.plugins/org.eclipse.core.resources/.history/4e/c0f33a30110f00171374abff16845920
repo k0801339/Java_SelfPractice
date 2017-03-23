@@ -1,0 +1,12 @@
+package pro.gradeSystem;
+
+public class GradeSystems {
+	
+	public GradeSystems(){
+		
+	}
+	boolean containsID(int ID){
+		
+	}
+	
+}
