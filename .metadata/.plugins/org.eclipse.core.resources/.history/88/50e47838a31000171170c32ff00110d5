@@ -1,0 +1,18 @@
+package pro.gradeSystem;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+}
+
+public class NoSuchIDExceptions extends Exception{
+	
+}
+
+public class NoSuchCommandExceptions extends Exception{
+	
+}

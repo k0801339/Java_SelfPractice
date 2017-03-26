@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="Grades" size="1089,443" id="pro.gradeSystem" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130205345485733">
+  <children xsi:type="editmodel:ClassEditModel" name="Grades" location="50,50" size="148,373" id="pro.gradeSystem/Grades" runTimeClassModel="Grades(ILjava.lang.String;IIIII[F),midTerm,getMidTerm(),calculateTotalGrade([F),totalGrade,getID(),getTotalGrade(),finalExam,lab3,getName(),lab1,getFinalExam(),lab2,name,getLab2(),iD,getLab3(),getLab1()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="86,144">
+      <children xsi:type="editmodel:AttributeEditModel" name="finalExam" id="pro.gradeSystem/Grades#finalExam"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="iD" id="pro.gradeSystem/Grades#iD"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lab1" id="pro.gradeSystem/Grades#lab1"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lab2" id="pro.gradeSystem/Grades#lab2"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lab3" id="pro.gradeSystem/Grades#lab3"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="midTerm" id="pro.gradeSystem/Grades#midTerm"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" id="pro.gradeSystem/Grades#name"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="totalGrade" id="pro.gradeSystem/Grades#totalGrade"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="125,180">
+      <children xsi:type="editmodel:MethodEditModel" name="Grades" id="pro.gradeSystem/Grades#Grades(ILjava.lang.String;IIIII[F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="calculateTotalGrade" id="pro.gradeSystem/Grades#calculateTotalGrade([F)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFinalExam" id="pro.gradeSystem/Grades#getFinalExam()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getID" id="pro.gradeSystem/Grades#getID()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLab1" id="pro.gradeSystem/Grades#getLab1()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLab2" id="pro.gradeSystem/Grades#getLab2()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getLab3" id="pro.gradeSystem/Grades#getLab3()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMidTerm" id="pro.gradeSystem/Grades#getMidTerm()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" id="pro.gradeSystem/Grades#getName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTotalGrade" id="pro.gradeSystem/Grades#getTotalGrade()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" properties="open=pro.gradeSystem/Grades;wireOptions=1;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>

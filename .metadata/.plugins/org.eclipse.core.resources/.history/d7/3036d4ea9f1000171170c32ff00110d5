@@ -1,0 +1,36 @@
+package pro.gradeSystem;
+
+import java.io.FileNotFoundException;
+
+public class UI {
+	public UI() throws NoSuchIDExceptions, NoSuchCommandExceptions, FileNotFoundException{	//remember to throws exception
+		try{
+			GradeSystems aGradeSystem = new GradeSystems();
+			while(true){
+				String cmdID = promptID();
+				if(cmdID.equals("Q")||cmdID().equals("q")){
+					break;
+				}else{
+					int ID = Integer.parseInt(cmdID);
+					if(checkID(ID)){
+						show
+					}
+				}
+			}
+		}finally{
+			showFinishMsg();
+		}
+	}
+	public boolean checkID(int ID){
+		
+	}
+	public String promptID(){
+		System.out.println("輸入ID 或 Q(結束使用)？");
+		Scanner console = new Scanner(System.in);
+		String cmdForID = console.nextLine();
+		return cmdForID;
+	}
+	public void showFinishMsg(){
+		System.out.println("系統已結束");
+	}
+}

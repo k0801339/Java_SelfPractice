@@ -14,7 +14,7 @@ public class Grades {
 		this.finalExam = finalExam;
 		calculateTotalGrade(weight);
 	}
-	public void calculateTotalGrade(float []weight){
+	public void calculateTotalGrade(float[] weight){
 		float tmp = lab1*weight[0]+lab2*weight[1]+lab3*weight[2]+midTerm*weight[3]+finalExam*weight[4];
 		totalGrade = (int)(Math.round(tmp));
 	}

@@ -1,0 +1,15 @@
+package pro.gradeSystem;
+
+import java.io.FileNotFoundException;
+
+public class UI {
+	public UI() throws NoSuchIDExceptions, NoSuchCommandExceptions, FileNotFoundException{	//remember to throws exception
+		try{
+			GradeSystems aGradeSystem = new GradeSystems();
+			
+		}
+		
+		
+		
+	}
+}

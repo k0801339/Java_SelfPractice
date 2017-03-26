@@ -1,0 +1,21 @@
+package pro.gradeSystem;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+
+	}
+	
+}
+
+public class NoSuchIDExceptions extends Exception{
+	public NoSuchIDExceptions(int ID){
+		super("ERROR:"+ID);
+	}
+}
+
+public class NoSuchCommandExceptions extends Exception{
+
+	
+}
